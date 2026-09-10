@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Local datasets and experiments
+external_data/
+experiments/
+fixtures/baseline_data/
+
+# Generated artifacts
+artifacts/
+review_results*/
+*.zip
+
+# Model weights
+model/**/*.pt
+model/**/*.pth
+model/**/*.ckpt
+model/**/*.onnx
+
+# Logs and temporary files
+*.log
+*.tmp
