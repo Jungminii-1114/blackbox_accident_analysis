@@ -1,0 +1,6 @@
+{
+  "stage1": {
+    "family": "baseline3"
+  },
+  "stage2": "parent_B"
+}
