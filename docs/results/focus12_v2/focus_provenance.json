@@ -1,0 +1,51 @@
+{
+  "code": {
+    "baseline_inference.py": "064c6ccd973a97e1543fe118133d0bb662d52c369d6fbecf2bcd647c870c0ec9",
+    "requirements.txt": "d1e33ed63b69aa71fede29bd98abd510de70a1d65591a70fe1f8ddc1330f0121",
+    "tools/portfolio_runtime.py": "f491b44011569e784f4e2343cfc5d173c25e3f6b34b173bc918c0e61a5e5cb08",
+    "tools/portfolio_lab.py": "179e3e99e5a037f6dd027bf5359020121057514a7a76add86185608bb11ea3c3",
+    "tools/local_validate.py": "991cfafbb045e96ef51474c5bfc1402414e3bcc8da10f41fa221e18e97766536",
+    "tools/check_predictions.py": "bcd7722af66ebfbfe7cbb7f22251efbf570f61bc5bc6bc1ad58db7ea4fbeafc0",
+    "tools/validate_submit_package.py": "3d5faf9a5bfaefc41954e04ebf253f548da453e2746edf75d3c19211359decfb",
+    "tools/portfolio_base_manifest.json": "62784db4c373756af14c8304b4893d241f3dd5050c2270fe3d9733f10d534091",
+    "tools/focus12_lab.py": "207fedf28c0f516c7f029c7667e30213ac8d5cd3d78e14a0fc0e3c40aa571851",
+    "tools/focus12_runtime.py": "ddc5e3574347336011d24a5c750db2b5487580fd90fba8ed2fb4fb99f9cba458",
+    "tools/focus12_history.json": "f1073ca69300706d79440dc5fe0496c342914f6ff80f9bdcfffb94722839bd91"
+  },
+  "parent_source": "bc71a3093549edc2d50a1317aad3dd486e380bc0532546b5ad2cde1e6e709b55",
+  "parent_zip": "96da8cb8593ae76867ff53c43b6e0159495172f73cc3f6f0c0f44ef9145b33c0",
+  "official_history": {
+    "source": "User-provided leaderboard screenshot; rounded stage scores, not final Private results",
+    "parent_experiment": "portfolio_v1_20260910T063010Z",
+    "parent_zip_sha256": "96da8cb8593ae76867ff53c43b6e0159495172f73cc3f6f0c0f44ef9145b33c0",
+    "parent_source_sha256": "bc71a3093549edc2d50a1317aad3dd486e380bc0532546b5ad2cde1e6e709b55",
+    "official_original": {
+      "stage1": 0.5339789355,
+      "stage2": 0.1172182028,
+      "stage3": 0.14581
+    },
+    "official_parent_rounded": {
+      "stage1": 0.52121,
+      "stage2": 0.1632,
+      "stage3": 0.57137
+    },
+    "stage3_frozen": {
+      "family": "A",
+      "thresholds": [
+        1.165121976286173,
+        2.930227120717365,
+        2.346569240093232
+      ],
+      "quantiles": [
+        0.05,
+        0.7,
+        0.8
+      ]
+    },
+    "notes": [
+      "User associates screenshot with parent experiment; a per-submission result/ZIP match is not independently observable.",
+      "Best-stage recombination is a hypothesis, not an observed official total.",
+      "Submission count 3 displayed; no remaining submission is assumed."
+    ]
+  }
+}
