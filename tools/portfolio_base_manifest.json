@@ -1,0 +1,9 @@
+{
+  "source": "Original existing dacon236753_colab_bundle.zip, verified against workspace model files on 2026-09-10",
+  "model_sha256": {
+    "model/stage1/best.pt": "cd1f613636cb3dcbdc128f585885e838a9f09852e24656bf88ac3368e96b78a7",
+    "model/stage2/best.pt": "bcaa9990a16f96e9ddeb6054d5f1398851030d92c46266b3be328ff90df36c7a",
+    "model/stage2/resnet18-f37072fd.pth": "a3a0b38a6959ddef38f5c4f08483d7851d81d5bcd849f153b706b1b1735f6ea0",
+    "model/stage3/best.pt": "16edc9724d454657273078487a03c6a70944ef1d2205331d1620683b49ac2bab"
+  }
+}
