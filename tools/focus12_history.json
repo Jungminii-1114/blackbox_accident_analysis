@@ -1,0 +1,10 @@
+{
+  "source": "User-provided leaderboard screenshot; rounded stage scores, not final Private results",
+  "parent_experiment": "portfolio_v1_20260910T063010Z",
+  "parent_zip_sha256": "96da8cb8593ae76867ff53c43b6e0159495172f73cc3f6f0c0f44ef9145b33c0",
+  "parent_source_sha256": "bc71a3093549edc2d50a1317aad3dd486e380bc0532546b5ad2cde1e6e709b55",
+  "official_original": {"stage1": 0.5339789355, "stage2": 0.1172182028, "stage3": 0.14581},
+  "official_parent_rounded": {"stage1": 0.52121, "stage2": 0.16320, "stage3": 0.57137},
+  "stage3_frozen": {"family": "A", "thresholds": [1.165121976286173, 2.930227120717365, 2.346569240093232], "quantiles": [0.05, 0.7, 0.8]},
+  "notes": ["User associates screenshot with parent experiment; a per-submission result/ZIP match is not independently observable.", "Best-stage recombination is a hypothesis, not an observed official total.", "Submission count 3 displayed; no remaining submission is assumed."]
+}
