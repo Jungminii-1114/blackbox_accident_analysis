@@ -1,0 +1,637 @@
+{
+  "verdict": "GO",
+  "purpose": "best_known_recombination",
+  "stages": {
+    "stage1": {
+      "selected": {
+        "family": "baseline3"
+      },
+      "candidate": {
+        "family": "A",
+        "regularization": 10.0
+      },
+      "selection_procedure_oof": {
+        "macro_f1": 0.4949494949494949,
+        "jpeg90_agreement": 1.0,
+        "folds": [
+          {
+            "held_out_source": "000001",
+            "train_sources": [
+              "000002",
+              "000003",
+              "000004",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 0.1
+          },
+          {
+            "held_out_source": "000002",
+            "train_sources": [
+              "000001",
+              "000003",
+              "000004",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 0.1
+          },
+          {
+            "held_out_source": "000003",
+            "train_sources": [
+              "000001",
+              "000002",
+              "000004",
+              "000005"
+            ],
+            "family": "B",
+            "regularization": 1.0
+          },
+          {
+            "held_out_source": "000004",
+            "train_sources": [
+              "000001",
+              "000002",
+              "000003",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 10.0
+          },
+          {
+            "held_out_source": "000005",
+            "train_sources": [
+              "000001",
+              "000002",
+              "000003",
+              "000004"
+            ],
+            "family": "A",
+            "regularization": 1.0
+          }
+        ],
+        "class_prediction_counts": {
+          "ORIGINAL": 6,
+          "RERECORDED": 4
+        },
+        "margins": [
+          -0.05733543252886068,
+          -0.16363098541984897,
+          -0.025174226220332566,
+          0.003378134308405432,
+          0.006634613886156018,
+          -0.026508301020023214,
+          -0.10128025671554551,
+          -0.01997911261988987,
+          0.0036073757130136493,
+          0.011829095595123476
+        ],
+        "perturbed_margins": [
+          -0.0574202008309505,
+          -0.1650564723239522,
+          -0.02432710846860294,
+          0.003409114887110254,
+          0.007070463977392508,
+          -0.027085899414502786,
+          -0.09586668536818654,
+          -0.02024463238448957,
+          0.0036586203557123762,
+          0.012091256795707682
+        ]
+      },
+      "fixed_family_oof": {
+        "A": {
+          "macro_f1": 0.4949494949494949,
+          "jpeg90_agreement": 1.0,
+          "folds": [
+            {
+              "held_out_source": "000001",
+              "train_sources": [
+                "000002",
+                "000003",
+                "000004",
+                "000005"
+              ],
+              "family": "A",
+              "regularization": 0.1
+            },
+            {
+              "held_out_source": "000002",
+              "train_sources": [
+                "000001",
+                "000003",
+                "000004",
+                "000005"
+              ],
+              "family": "A",
+              "regularization": 0.1
+            },
+            {
+              "held_out_source": "000003",
+              "train_sources": [
+                "000001",
+                "000002",
+                "000004",
+                "000005"
+              ],
+              "family": "A",
+              "regularization": 0.1
+            },
+            {
+              "held_out_source": "000004",
+              "train_sources": [
+                "000001",
+                "000002",
+                "000003",
+                "000005"
+              ],
+              "family": "A",
+              "regularization": 10.0
+            },
+            {
+              "held_out_source": "000005",
+              "train_sources": [
+                "000001",
+                "000002",
+                "000003",
+                "000004"
+              ],
+              "family": "A",
+              "regularization": 1.0
+            }
+          ],
+          "class_prediction_counts": {
+            "ORIGINAL": 6,
+            "RERECORDED": 4
+          },
+          "margins": [
+            -0.05733543252886068,
+            -0.16363098541984897,
+            -0.2617595283102577,
+            0.003378134308405432,
+            0.006634613886156018,
+            -0.026508301020023214,
+            -0.10128025671554551,
+            -0.2270102992508352,
+            0.0036073757130136493,
+            0.011829095595123476
+          ],
+          "perturbed_margins": [
+            -0.0574202008309505,
+            -0.1650564723239522,
+            -0.25672693985421924,
+            0.003409114887110254,
+            0.007070463977392508,
+            -0.027085899414502786,
+            -0.09586668536818654,
+            -0.22787770211674446,
+            0.0036586203557123762,
+            0.012091256795707682
+          ]
+        },
+        "B": {
+          "macro_f1": 0.6,
+          "jpeg90_agreement": 1.0,
+          "folds": [
+            {
+              "held_out_source": "000001",
+              "train_sources": [
+                "000002",
+                "000003",
+                "000004",
+                "000005"
+              ],
+              "family": "B",
+              "regularization": 0.1
+            },
+            {
+              "held_out_source": "000002",
+              "train_sources": [
+                "000001",
+                "000003",
+                "000004",
+                "000005"
+              ],
+              "family": "B",
+              "regularization": 0.1
+            },
+            {
+              "held_out_source": "000003",
+              "train_sources": [
+                "000001",
+                "000002",
+                "000004",
+                "000005"
+              ],
+              "family": "B",
+              "regularization": 1.0
+            },
+            {
+              "held_out_source": "000004",
+              "train_sources": [
+                "000001",
+                "000002",
+                "000003",
+                "000005"
+              ],
+              "family": "B",
+              "regularization": 0.1
+            },
+            {
+              "held_out_source": "000005",
+              "train_sources": [
+                "000001",
+                "000002",
+                "000003",
+                "000004"
+              ],
+              "family": "B",
+              "regularization": 0.1
+            }
+          ],
+          "class_prediction_counts": {
+            "ORIGINAL": 5,
+            "RERECORDED": 5
+          },
+          "margins": [
+            -0.012116349182178566,
+            -0.2681363442674304,
+            -0.025174226220332566,
+            0.2783298584758364,
+            0.05049800296848918,
+            0.03510515511302055,
+            -0.19348598827874833,
+            -0.01997911261988987,
+            0.30728205052335633,
+            0.09937821914024472
+          ],
+          "perturbed_margins": [
+            -0.012455673038956894,
+            -0.2687537621876196,
+            -0.02432710846860294,
+            0.28080968460558753,
+            0.05264847967027875,
+            0.034136573360033104,
+            -0.1881442901278887,
+            -0.02024463238448957,
+            0.31169971407861796,
+            0.10318567706262277
+          ]
+        }
+      },
+      "selected_family_oof": {
+        "macro_f1": 0.4949494949494949,
+        "jpeg90_agreement": 1.0,
+        "folds": [
+          {
+            "held_out_source": "000001",
+            "train_sources": [
+              "000002",
+              "000003",
+              "000004",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 0.1
+          },
+          {
+            "held_out_source": "000002",
+            "train_sources": [
+              "000001",
+              "000003",
+              "000004",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 0.1
+          },
+          {
+            "held_out_source": "000003",
+            "train_sources": [
+              "000001",
+              "000002",
+              "000004",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 0.1
+          },
+          {
+            "held_out_source": "000004",
+            "train_sources": [
+              "000001",
+              "000002",
+              "000003",
+              "000005"
+            ],
+            "family": "A",
+            "regularization": 10.0
+          },
+          {
+            "held_out_source": "000005",
+            "train_sources": [
+              "000001",
+              "000002",
+              "000003",
+              "000004"
+            ],
+            "family": "A",
+            "regularization": 1.0
+          }
+        ],
+        "class_prediction_counts": {
+          "ORIGINAL": 6,
+          "RERECORDED": 4
+        },
+        "margins": [
+          -0.05733543252886068,
+          -0.16363098541984897,
+          -0.2617595283102577,
+          0.003378134308405432,
+          0.006634613886156018,
+          -0.026508301020023214,
+          -0.10128025671554551,
+          -0.2270102992508352,
+          0.0036073757130136493,
+          0.011829095595123476
+        ],
+        "perturbed_margins": [
+          -0.0574202008309505,
+          -0.1650564723239522,
+          -0.25672693985421924,
+          0.003409114887110254,
+          0.007070463977392508,
+          -0.027085899414502786,
+          -0.09586668536818654,
+          -0.22787770211674446,
+          0.0036586203557123762,
+          0.012091256795707682
+        ]
+      },
+      "baseline3_local": 0.3333333333333333,
+      "status": "RECOVERY_BASELINE3",
+      "limitations": [
+        "five pairs only; target-like but tiny validation",
+        "reuse of baseline ResNet18; full pretraining provenance not re-established"
+      ],
+      "gate": "procedure AND final-family F1 >= max(.6, baseline+.1); codec agreement >=.9; both classes predicted",
+      "local_BSS_delta": 0.0
+    },
+    "stage2": {
+      "selected": "parent_B",
+      "parent": {
+        "accuracy_at_0_3s": 1.0,
+        "mae_seconds": 0.17999999999999988,
+        "mae_frames": 1.8,
+        "errors_seconds": [
+          0.2999999999999998,
+          0.09999999999999964,
+          0.20000000000000018,
+          0.09999999999999964,
+          0.20000000000000018
+        ]
+      },
+      "candidates": {
+        "E": {
+          "metrics": {
+            "clean": {
+              "accuracy_at_0_3s": 1.0,
+              "mae_seconds": 0.11999999999999993,
+              "mae_frames": 1.2,
+              "errors_seconds": [
+                0.10000000000000009,
+                0.09999999999999964,
+                0.20000000000000018,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            },
+            "95": {
+              "accuracy_at_0_3s": 0.8,
+              "mae_seconds": 0.62,
+              "mae_frames": 6.2,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.6,
+                0.20000000000000018,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            },
+            "90": {
+              "accuracy_at_0_3s": 0.6,
+              "mae_seconds": 0.8800000000000001,
+              "mae_frames": 8.8,
+              "errors_seconds": [
+                1.4000000000000001,
+                2.6,
+                0.20000000000000018,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            }
+          },
+          "jpeg_stability_at_0_1s": 0.7,
+          "eligible": false,
+          "predictions": {
+            "clean": {
+              "S2_001": 33,
+              "S2_002": 29,
+              "S2_003": 33,
+              "S2_004": 42,
+              "S2_005": 31
+            },
+            "95": {
+              "S2_001": 33,
+              "S2_002": 4,
+              "S2_003": 33,
+              "S2_004": 42,
+              "S2_005": 31
+            },
+            "90": {
+              "S2_001": 18,
+              "S2_002": 4,
+              "S2_003": 33,
+              "S2_004": 42,
+              "S2_005": 31
+            }
+          }
+        },
+        "C": {
+          "metrics": {
+            "clean": {
+              "accuracy_at_0_3s": 0.6,
+              "mae_seconds": 0.6599999999999999,
+              "mae_frames": 6.6,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.6,
+                0.3999999999999999,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            },
+            "95": {
+              "accuracy_at_0_3s": 0.6,
+              "mae_seconds": 0.6599999999999999,
+              "mae_frames": 6.6,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.6,
+                0.3999999999999999,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            },
+            "90": {
+              "accuracy_at_0_3s": 0.6,
+              "mae_seconds": 0.5599999999999999,
+              "mae_frames": 5.6,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.1,
+                0.3999999999999999,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            }
+          },
+          "jpeg_stability_at_0_1s": 0.9,
+          "eligible": false,
+          "predictions": {
+            "clean": {
+              "S2_001": 33,
+              "S2_002": 4,
+              "S2_003": 27,
+              "S2_004": 42,
+              "S2_005": 31
+            },
+            "95": {
+              "S2_001": 33,
+              "S2_002": 4,
+              "S2_003": 27,
+              "S2_004": 42,
+              "S2_005": 31
+            },
+            "90": {
+              "S2_001": 33,
+              "S2_002": 9,
+              "S2_003": 27,
+              "S2_004": 42,
+              "S2_005": 31
+            }
+          }
+        },
+        "D": {
+          "metrics": {
+            "clean": {
+              "accuracy_at_0_3s": 0.8,
+              "mae_seconds": 0.62,
+              "mae_frames": 6.2,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.6,
+                0.20000000000000018,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            },
+            "95": {
+              "accuracy_at_0_3s": 0.8,
+              "mae_seconds": 0.62,
+              "mae_frames": 6.2,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.6,
+                0.20000000000000018,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            },
+            "90": {
+              "accuracy_at_0_3s": 0.8,
+              "mae_seconds": 0.62,
+              "mae_frames": 6.2,
+              "errors_seconds": [
+                0.10000000000000009,
+                2.6,
+                0.20000000000000018,
+                0.09999999999999964,
+                0.10000000000000009
+              ]
+            }
+          },
+          "jpeg_stability_at_0_1s": 1.0,
+          "eligible": false,
+          "predictions": {
+            "clean": {
+              "S2_001": 33,
+              "S2_002": 4,
+              "S2_003": 33,
+              "S2_004": 42,
+              "S2_005": 31
+            },
+            "95": {
+              "S2_001": 33,
+              "S2_002": 4,
+              "S2_003": 33,
+              "S2_004": 42,
+              "S2_005": 31
+            },
+            "90": {
+              "S2_001": 33,
+              "S2_002": 4,
+              "S2_003": 33,
+              "S2_004": 42,
+              "S2_005": 31
+            }
+          }
+        }
+      },
+      "full_stage_local_score": null,
+      "status": "KEEP_OFFICIAL_CHAMPION",
+      "gate": "no tolerance-accuracy loss; MAE improves >=.02s; JPEG95/90 accuracy no worse; stability >=.9",
+      "limitations": "collision-only, five public videos; unknown entry/direction/evasion remain parent outputs",
+      "local_BSS_delta": null
+    }
+  },
+  "stage3": "FROZEN: byte-identical parent source prefix/config and identical current-fixture predictions",
+  "official_parent_rounded": {
+    "stage1": 0.52121,
+    "stage2": 0.1632,
+    "stage3": 0.57137
+  },
+  "official_candidate": null,
+  "official_BSS_delta": null,
+  "original_to_parent_official_delta_approx": {
+    "stage1": -0.012768935500000023,
+    "stage2": 0.04598179720000001,
+    "stage3": 0.42556000000000005
+  },
+  "recovery_s1_reference_delta": 0.012768935500000023,
+  "improvement_probability": null,
+  "failures": [],
+  "package_check": {
+    "passed": true,
+    "zip_sha256": "58fc7bafd9c2fafdcc79831a0c321f4f8f01d52f2658b0b7dc9d632cbd37802f",
+    "bound_evidence": {
+      "reports/stage1.json": "14c25d502940493294b2a94f023f988b9891bb126d1a1e52236df2c2ed192bda",
+      "reports/stage2.json": "39c7e4245d7fe186bf841178967981f6ffae07957b396a554954d7a87a9cbca7",
+      "reports/focus_provenance.json": "e26cf86fe367a053fa64070b70cab4c3deef85573c00b012a6433083b4c68ddb",
+      "config/selected.json": "06cae7ddba1a0e4e81ebbece9ee1c011c5bc11bc0b592c7870f1ab35a7b9a664",
+      "predictions/selected_zip/stage1.csv": "d825c36896989e4bd7f80a150ad97a0f6ac25c624cd076f8cd04d8ee3a92ec06",
+      "predictions/selected_zip/stage2.csv": "b50f78edbcde82872373aa6666fba9d2ae7dc65ba89b8572fdfb08b7b8ac4f02",
+      "predictions/selected_zip/stage3.csv": "63a7a7d2616a028a9fed9e3d3154b59d0bbdb2f0ddc200ef9ba3c87dfe092473"
+    },
+    "parent_stage3_exact_match": true,
+    "stage3_source_prefix_sha256": "bc71a3093549edc2d50a1317aad3dd486e380bc0532546b5ad2cde1e6e709b55",
+    "total_local_smoke_seconds": 193.57833853199998,
+    "scope": "same Colab runtime, two extracted/process executions; NOT full hidden L40S test"
+  },
+  "warnings": [
+    "GO does not guarantee an official increase",
+    "Only five source pairs / five accidents; public reuse",
+    "S2 full local score is N/A; do not equate tolerance accuracy and timing precision",
+    "Displayed submission count was 3; do not assume another submission is available today"
+  ]
+}

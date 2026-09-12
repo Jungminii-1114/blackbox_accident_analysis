@@ -1,0 +1,16 @@
+{
+  "competition": "DACON 236753",
+  "submission_id": 87016,
+  "submitted_at": "2026-09-10 23:36:22 KST",
+  "source": "user-provided DACON leaderboard screenshot",
+  "stage1": 0.5339789355,
+  "stage2": 0.1632036043,
+  "stage3": 0.5713741554,
+  "weights": {
+    "stage1": 0.2,
+    "stage2": 0.4,
+    "stage3": 0.4
+  },
+  "weighted_score": 0.40062689098,
+  "candidate_submit_zip_sha256": "58fc7bafd9c2fafdcc79831a0c321f4f8f01d52f2658b0b7dc9d632cbd37802f"
+}
