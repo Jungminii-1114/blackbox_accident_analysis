@@ -1,5 +1,6 @@
 # macOS
 .DS_Store
+Thumbs.db
 
 # Python
 __pycache__/
@@ -12,21 +13,21 @@ __pycache__/
 venv/
 env/
 
-# Local datasets and experiments
+# Data and model weights
+data/
+model/
 external_data/
 experiments/
 fixtures/baseline_data/
+model/**/*.pt
+model/**/*.pth
+model/**/*.ckpt
+model/**/*.onnx
 
 # Generated artifacts
 artifacts/
 review_results*/
 *.zip
-
-# Model weights
-model/**/*.pt
-model/**/*.pth
-model/**/*.ckpt
-model/**/*.onnx
 
 # Logs and temporary files
 *.log
